@@ -1,0 +1,25 @@
+# Secrets and local configuration
+**/.env
+**/serviceAccountKey.json
+android/app/google-services.json
+
+# Python
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+**/dist/
+**/build/
+
+# Android / Gradle
+**/.gradle/
+**/local.properties
+**/app/build/
+
+# MSIX build artifacts / certificates
+server/msix/staging/
+server/msix/PermissionHelper/bin/
+server/msix/PermissionHelper/obj/
+server/msix/PermissionHelper/publish/
+server/msix/*.msix
+server/msix/*.cer
+server/msix/*.pfx
